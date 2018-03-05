@@ -78,11 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				0683CAC1204D8835004198BC /* AppDelegate.swift */,
-				0683CAC3204D8835004198BC /* ViewController.swift */,
-				0683CAC5204D8835004198BC /* Main.storyboard */,
-				0683CAC8204D8835004198BC /* Assets.xcassets */,
-				0683CACA204D8835004198BC /* LaunchScreen.storyboard */,
-				0683CACD204D8835004198BC /* Info.plist */,
+				0683CAE4204D894F004198BC /* Model */,
+				0683CAE2204D8938004198BC /* Views */,
+				0683CAE3204D8942004198BC /* Controller */,
+				0683CAE1204D8929004198BC /* Supporting Files */,
 			);
 			path = "The Interview App";
 			sourceTree = "<group>";
@@ -94,6 +93,39 @@
 				0683CAD8204D8835004198BC /* Info.plist */,
 			);
 			path = "The Interview AppTests";
+			sourceTree = "<group>";
+		};
+		0683CAE1204D8929004198BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0683CAC8204D8835004198BC /* Assets.xcassets */,
+				0683CACD204D8835004198BC /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0683CAE2204D8938004198BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0683CAC5204D8835004198BC /* Main.storyboard */,
+				0683CACA204D8835004198BC /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0683CAE3204D8942004198BC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0683CAC3204D8835004198BC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0683CAE4204D894F004198BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
